@@ -1,0 +1,127 @@
+@font-face {
+  font-family: 'Rubik';
+  src: local('Rubik'), url('../fonts/Rubik-VariableFont_wght.ttf') format('truetype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ebebeb;
+}
+
+.main-form {
+  padding-top: 30px;
+  padding-left: 50px;
+  height: 430px;
+  width: 500px;
+  border-radius: 2px;
+  background-color: #fefefe;
+}
+
+.main-form-text {
+  max-width: 450px;
+}
+
+.main-form-text__header {
+  color: #4b453f;
+  font-family: Rubik;
+  font-weight: 650;
+  font-size: 25px;
+}
+
+.main-form-text__description {
+  color: #adb4bf;
+  font-family: Rubik;
+  font-weight: 500;
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.main-form__main-error {
+  font-family: Rubik;
+  font-weight: 500;
+  font-size: 12px;
+  color: red;
+  display: none;
+}
+
+.main-form__main-error--active {
+  display: block;
+}
+
+.main-form-input-item__error {
+  font-family: Rubik;
+  font-weight: 500;
+  font-size: 12px;
+  color: red;
+  display: none;
+}
+
+.main-form-input-item__error--active {
+  display: block;
+}
+
+.main-form-input-item {
+  height: 80px;
+}
+
+.main-form-input-item__text {
+  font-family: Rubik;
+  font-size: 18px;
+  color: #676170;
+}
+
+.main-form-input-item__input {
+  border-radius: 5px;
+  border: 1px solid #e7e7e7;
+  padding: 5px;
+  margin-top: 5px;
+  color: #676170;
+  font-family: Rubik;
+}
+
+.main-form-input-item__input::placeholder {
+  color: #adb4bf;
+}
+
+.main-form-input-item:first-child {
+  margin-right: 100px;
+}
+
+.main-form-person-items {
+  display: flex;
+}
+
+.main-form__submit-btn {
+  font-family: Rubik;
+  font-size: 18px;
+  color: #676170;
+  border-radius: 5px;
+  border: 1px solid #e7e7e7;
+  width: 70px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.main-form__submit-btn:hover {
+  background-color: #e7e7e7;
+  transition: 0.5s;
+}

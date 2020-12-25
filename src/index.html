@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Authorization Form</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="main-form">
+    <div class="main-form-text">
+      <div class="main-form-text__header">Contact Form</div>
+      <div class="main-form-text__description">Let us know your questions, suggestions and concerns by filling out the contact form below.</div>
+    </div>
+    <div class="main-form__main-error">Something is not right! Erros are highlighted below.</div>
+    <div class="main-form-person-items">
+      <div class="main-form-input-item">
+        <div class="main-form-input-item__text">First Name:</div>
+        <input type="text" placeholder="First Name" class="main-form-input-item__input" id="person-first-name-input">
+        <div class="main-form-input-item__error" id="person-first-name-error">This field is required.</div>
+      </div>
+      <div class="main-form-input-item">
+        <div class="main-form-input-item__text">Last Name:</div>
+        <input type="text" placeholder="Last Name" class="main-form-input-item__input" id="person-last-name-input">
+        <div class="main-form-input-item__error" id="person-last-name-error">This field is required.</div>
+      </div>
+    </div>
+    <div class="main-form__line"></div>
+    <div class="main-form-input-item">
+      <div class="main-form-input-item__text">E-mail:</div>
+      <input type="text" placeholder="E-mail" class="main-form-input-item__input" id="email-input">
+      <div class="main-form-input-item__error" id="email-error__empty">Expected input email.</div>
+      <div class="main-form-input-item__error" id="email-error__invalid">Invalid email format.</div>
+    </div>
+    <div class="main-form-input-item">
+      <div class="main-form-input-item__text">Password:</div>
+      <input type="password" placeholder="Password" class="main-form-input-item__input" id="password-input">
+      <div class="main-form-input-item__error" id="password-error__empty">Expected input password.</div>
+      <div class="main-form-input-item__error" id="password-error__invalid">The password must contain at least 6 characters.</div>
+    </div>
+    <div class="main-form__submit-btn">Send</div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
