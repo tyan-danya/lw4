@@ -11,6 +11,7 @@ module.exports = {
   },
   rules: {
     'linebreak-style': 0,
-    'no-plusplus': 0
+    'no-plusplus': 0,
+    'prettier/prettier': ['error']
   }
 };
