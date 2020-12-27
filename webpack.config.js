@@ -14,6 +14,7 @@ const webpack = require("webpack");
 const path = require("path"); // встроенная node.js либа для работы с путями в ОС (не нужно устанавливать через npm)
 
 module.exports = {
+  mode: 'development',
   entry: "./src/index.js", // точка входа
   output: {
     filename: "app.min.js", // имя файла сборки
